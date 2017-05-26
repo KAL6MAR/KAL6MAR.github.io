@@ -1,0 +1,107 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+html, body
+	margin: 0
+	padding: 0
+	font-family: Arial, Helvetica, 'sans-serif'
+
+.container
+	width: 1000px	
+
+.header-descript
+	background: #563d7c
+	color: white
+
+.header-descript .header-title
+	margin-top: 10px
+	font-size: 42px
+	text-align: center
+
+.header-descript .header-desctiption
+	font-size: 20px
+	text-align: center
+	font-style: italic
+
+.image-form-container
+	margin-top: 10px
+
+.image-form-container .left-photo
+	background: #eee
+	height: 300px
+
+.sale
+	background: #563d7c
+	margin-top: 10px
+	color: white
+
+.sale .title
+	font-size: 28px
+	text-align: center
+
+.triggers
+	margin-top: 10px
+
+.triggers .triggers-title
+	font-size: 24px
+	text-align: center
+
+.trigger .response
+	text-align: center
+	height: 50px
+	border: 1px solid #eee
+
+.responses
+	margin-top: 10px
+
+.responses .responses-title
+	font-size: 24px
+	text-align: center
+
+.footer
+	margin-top: 10px
+	height: 50px
+	text-align: center
+	background: #eee	
+
+@import "media" // Всегда в конце
